@@ -29,7 +29,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
         [InlineKeyboardButton("💰 Process", url=PROCESS_LINK)],
         [InlineKeyboardButton("🎥 Photo And Video", url=PHOTO_VIDEO_LINK)],
-        [InlineKeyboardButton("💵 Buy Currency", url=BUY_LINK)],
+        [InlineKeyboardButton("📩 Contact Us", url=BUY_LINK)],
         [InlineKeyboardButton("👍 Customer Feedback", url=FEEDBACK_LINK)]
     ]
 
